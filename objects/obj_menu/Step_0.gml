@@ -34,7 +34,8 @@ if(menu_x > gui_width +150) && (menu_committed != -1)
 {
 	switch (menu_committed)
 	{
-		case 2: default: scr_Transition(TRANS_MODE.NEXT); break;
-		case 0: game_end(); break;
+		case 2: default: scr_Transition(TRANS_MODE.GOTO,r_Space);  break; //will be r_LevelSelect
+		case 1: scr_Transition(TRANS_MODE.GOTO,r_Options); break; //takes to Option room
+		case 0: game_end(); break; //If Quit is chosen
 	}
 }
