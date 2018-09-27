@@ -34,7 +34,7 @@ if(menu_x > gui_width +150) && (menu_committed != -1)
 {
 	switch (menu_committed)
 	{
-		case 2: default: scr_Transition(TRANS_MODE.NEXT); break;
+		case 2: default: scr_Transition(TRANS_MODE.GOTO,r_space); break;
 		case 1: scr_Transition(TRANS_MODE.GOTO,r_option); break;
 		case 0: game_end(); break;
 	}

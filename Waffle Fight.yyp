@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "5b5e8b6f-f895-4c09-a79e-988287fa77e8",
+            "Value": {
+                "id": "992151ce-7494-49f6-bc8e-95eae5b85a86",
+                "resourcePath": "rooms\\r_selection\\r_selection.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5c7e1700-d1c6-4d2a-916d-c092871e5d21",
             "Value": {
                 "id": "62083eaf-95d5-4615-9a36-5b9d0341de52",
@@ -188,6 +196,14 @@
                 "id": "c949ec3a-1673-4848-aafa-24f6877af6d3",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "af59bd00-fc9b-40f9-b5a2-00c2dd110800",
+            "Value": {
+                "id": "571c5743-576c-476b-8cc5-40a4c448616f",
+                "resourcePath": "rooms\\r_space\\r_space.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
