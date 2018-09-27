@@ -1,5 +1,6 @@
 /// @description Narwhal Create
-sprite_index = 1;
+image_index = 1;
+image_speed =0;
 maxvel = 15;
 vel = 0;
 accell = 1;
