@@ -82,7 +82,7 @@
             "Key": "5c7e1700-d1c6-4d2a-916d-c092871e5d21",
             "Value": {
                 "id": "62083eaf-95d5-4615-9a36-5b9d0341de52",
-                "resourcePath": "fonts\\Main_menu\\Main_menu.yy",
+                "resourcePath": "fonts\\f_Menu\\f_Menu.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -91,6 +91,14 @@
             "Value": {
                 "id": "8cfbcf96-6d64-4d43-a346-6091b5ff8d28",
                 "resourcePath": "rooms\\room0\\room0.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6d2089ad-ed85-4293-a03a-27aae27435f0",
+            "Value": {
+                "id": "0941b553-810e-4fcf-a9ca-b846bc86c612",
+                "resourcePath": "rooms\\r_option\\r_option.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -116,6 +124,14 @@
                 "id": "8e151cbc-c54f-47e2-8573-355b192819aa",
                 "resourcePath": "views\\73bc114c-98e6-4f82-9c11-5e39753d56c5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7c4b90aa-96c1-49ca-8ab3-6b6cd2e28cdf",
+            "Value": {
+                "id": "9ba3c7b4-9a98-41c1-bb55-5db81938e141",
+                "resourcePath": "objects\\obj_control\\obj_control.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -247,11 +263,27 @@
             }
         },
         {
+            "Key": "f14a6333-aa4d-4698-b6c9-9b6056bab49c",
+            "Value": {
+                "id": "8b2e7138-7573-46fd-bc37-9dbb4d1b3e2e",
+                "resourcePath": "objects\\obj_options\\obj_options.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "23fd6e08-2b83-4c5c-ab8a-864b45d51c72",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f8c31c38-692e-4e8b-ac78-33bbe536be18",
+            "Value": {
+                "id": "56e526f1-06d4-4843-99ac-ef9e8c9b6154",
+                "resourcePath": "objects\\obj_video\\obj_video.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
