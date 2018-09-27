@@ -1,5 +1,5 @@
 /// @description Narwhal Create
-
+sprite_index = 1;
 maxvel = 15;
 vel = 0;
 accell = 1;
@@ -10,10 +10,10 @@ yloop = true;
 dragscl = .98;
 brakscl = .95;
 
-globalvar p1_leftR
-globalvar p1_rightR
-globalvar p1_acc
-globalvar p1_dec
+globalvar p1_leftR;
+globalvar p1_rightR;
+globalvar p1_acc;
+globalvar p1_dec;
 
 p1_leftR = vk_left;
 p1_rightR = vk_right;

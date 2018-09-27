@@ -1,28 +1,18 @@
 {
-    "id": "92a3c0b8-1f5a-4d1b-9e88-d1fb057864bb",
+    "id": "8750ba35-03bb-4021-affb-484b627bd125",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_player2",
+    "name": "obj_burntWaffle",
     "eventList": [
         {
-            "id": "e57b2a9d-1c77-476a-b3af-365452691665",
+            "id": "e0b52919-9bfc-4bda-ab05-5bee9ea9fc62",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "92a3c0b8-1f5a-4d1b-9e88-d1fb057864bb"
-        },
-        {
-            "id": "9e10a8c2-89ea-4470-ba17-27d5a0b427d5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "92a3c0b8-1f5a-4d1b-9e88-d1fb057864bb"
+            "m_owner": "8750ba35-03bb-4021-affb-484b627bd125"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "676bb07a-cc10-427e-8ce1-6bfacf858a54",
+    "spriteId": "b6007fd4-779d-4c96-b815-a949e4f671b0",
     "visible": true
 }

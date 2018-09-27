@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "60af4ee0-e34d-4349-a35e-2270f89512d5",
+            "Value": {
+                "id": "a6a043e0-1795-4adc-82ed-521863cefebc",
+                "resourcePath": "objects\\obj_gameStats\\obj_gameStats.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "676bb07a-cc10-427e-8ce1-6bfacf858a54",
             "Value": {
                 "id": "aadf4a90-1912-42b5-a66c-27bec56f3e55",
@@ -147,6 +155,22 @@
             "Value": {
                 "id": "9ba3c7b4-9a98-41c1-bb55-5db81938e141",
                 "resourcePath": "objects\\obj_control\\obj_control.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7f78f060-6b9d-4c32-b507-840ffd84b199",
+            "Value": {
+                "id": "857f1721-2df1-4a71-9c89-6cd372f87587",
+                "resourcePath": "sprites\\sprite8\\sprite8.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8750ba35-03bb-4021-affb-484b627bd125",
+            "Value": {
+                "id": "7ce90e26-4136-4602-bf1f-3d0e6ddb2839",
+                "resourcePath": "objects\\obj_burntWaffle\\obj_burntWaffle.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -255,6 +279,14 @@
             }
         },
         {
+            "Key": "b480d781-7a1d-449d-a920-f0b8d53576db",
+            "Value": {
+                "id": "f20c9c13-79bc-471a-8945-922e8c7a924a",
+                "resourcePath": "objects\\obj_waffleSpawner\\obj_waffleSpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b591b06b-1158-4561-b39c-4c7741588837",
             "Value": {
                 "id": "17962020-e31b-4d13-8657-94bf37f15f85",
@@ -332,6 +364,14 @@
                 "id": "ab2bd469-2d69-478c-a29f-2dac5bafc56d",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce08b4d7-7617-4a5c-947e-64cef406f28d",
+            "Value": {
+                "id": "f9679fc5-5c9a-4da6-b93f-e56ed89a2f21",
+                "resourcePath": "objects\\obj_waffle\\obj_waffle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
