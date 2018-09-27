@@ -44,3 +44,16 @@ draw_text(xx,yy,txt);
 draw_text(xx,yy,txt);
 draw_set_color(c_white);
 draw_text(xx,yy,txt);
+
+//Winner
+if(player1Points > player2Points && fullRound = 0){
+	draw_text(gui_width/2,gui_height/2,"Player 1 Wins");
+}
+	
+if(player1Points < player2Points && fullRound = 0){
+	draw_text(gui_width/2,gui_height/2,"Player 2 Wins");
+}
+	
+if(player1Points = player2Points && fullRound = 0){
+	draw_text(gui_width/2,gui_height/2,"Tie");
+}
