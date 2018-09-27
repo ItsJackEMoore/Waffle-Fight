@@ -13,9 +13,10 @@ option_itemheight = font_get_size(f_Menu);
 option_committed = -1;
 option_control = true;
 
-option[2] = "Control";
-option[1] = "Video";
+option[3] = "Control";
+option[2] = "Video";
+option[1] = "Audio";
 option[0] = "Back";
 
 option_items = array_length_1d(option)
-option_cursor = 2;
+option_cursor = 3;

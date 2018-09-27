@@ -5,7 +5,7 @@ gui_height = display_get_gui_height();
 gui_margin = 32;
 
 control_x = 0;
-control_y = gui_height/2 + 50;
+control_y = gui_height/2 + 100;
 control_x_target = gui_margin * 1.5;
 control_speed = 25; //lower is faster
 control_font = f_Menu;
