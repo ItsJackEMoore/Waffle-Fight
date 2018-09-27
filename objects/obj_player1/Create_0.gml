@@ -1,6 +1,8 @@
 /// @description Narwhal Create
-image_index = 1;
+image_index = 0;
 image_speed =0;
+image_xscale = 0.1;
+image_yscale = 0.1;
 maxvel = 15;
 vel = 0;
 accell = 1;
@@ -16,7 +18,7 @@ globalvar p1_rightR;
 globalvar p1_acc;
 globalvar p1_dec;
 
-p1_leftR = vk_left;
-p1_rightR = vk_right;
-p1_acc = vk_up;
-p1_dec = vk_down;
+p1_leftR = ord("A");
+p1_rightR = ord("D");
+p1_acc = ord("W");
+p1_dec = ord("S");

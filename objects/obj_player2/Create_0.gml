@@ -1,6 +1,9 @@
 /// @description Narwhal Create
-image_index = 2;
+image_index = 1;
 image_speed =0;
+image_xscale = 0.1;
+image_yscale = 0.1;
+
 maxvel = 15;
 vel = 0;
 accell = 1;
