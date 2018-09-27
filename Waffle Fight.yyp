@@ -128,6 +128,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "Key": "7e2178de-a1aa-433f-b9f9-4ad046b07dac",
             "Value": {
                 "id": "1bb5964c-8ca7-45d4-a0b3-8c25731a2957",
@@ -136,6 +137,8 @@
             }
         },
         {
+=======
+>>>>>>> parent of a29a321... Option Menu UI complete [Non-functional]
             "Key": "8067679c-b228-4216-bd0e-f8c8b0a12100",
             "Value": {
                 "id": "cec9e8dc-ef94-401d-a73a-b83c29ece863",
@@ -268,14 +271,6 @@
                 "id": "ab2bd469-2d69-478c-a29f-2dac5bafc56d",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
-            }
-        },
-        {
-            "Key": "d08b9f25-823f-4050-b2e9-ddc5a8cd29e9",
-            "Value": {
-                "id": "3e3fa1dc-df8d-42f8-bd68-de53adaad394",
-                "resourcePath": "objects\\obj_controls\\obj_controls.yy",
-                "resourceType": "GMObject"
             }
         },
         {
