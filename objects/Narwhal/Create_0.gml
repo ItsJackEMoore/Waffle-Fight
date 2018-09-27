@@ -1,0 +1,9 @@
+maxvel = 15;
+vel = 0;
+accell = 1;
+minvel = 3;
+rotspd = 4;
+xloop = false;
+yloop = true;
+dragscl = .98;
+brakscl = .95;
