@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0f23072a-178b-473c-805b-ee981f856027",
+            "Value": {
+                "id": "b0220d21-4980-4a42-8867-46d474c850ec",
+                "resourcePath": "sounds\\bite_1\\bite_1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1c8270d4-9cf7-474c-8cbd-9a44b535cb44",
             "Value": {
                 "id": "d8e04bcd-70d7-4b59-bc64-ac49a5e4f38e",
@@ -84,6 +92,14 @@
                 "id": "1d0921d1-1588-48de-9644-d15fa4d4439b",
                 "resourcePath": "objects\\obj_asteroid\\obj_asteroid.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5ad723eb-eba2-4e91-bb15-098d47a4f91b",
+            "Value": {
+                "id": "66e2f4e3-4cf8-42a1-8897-9396a143686c",
+                "resourcePath": "sounds\\bite_2\\bite_2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
