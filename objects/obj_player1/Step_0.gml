@@ -3,9 +3,9 @@
 if (keyboard_check(p1_leftR)) image_angle = image_angle + rotspd;
 if (keyboard_check(p1_rightR)) image_angle = image_angle - rotspd;
 if (keyboard_check(p1_acc)) vel = min(vel + accell, maxvel);
-if (!(keyboard_check(p1_acc)) && (vel > minvel)) vel = vel * dragscl;
-if ((keyboard_check(p1_dec)) && (vel > minvel)) vel = vel * brakscl;
-if ((keyboard_check(p1_dec)) && (vel <= minvel)) vel = 0;
+if (!(keyboard_check(p1_acc)) && (vel < minvel)) vel = vel * dragscl;
+if ((keyboard_check(p1_dec)) && (vel < minvel)) vel = vel * brakscl;
+if ((keyboard_check(p1_dec)) && (vel >= minvel)) vel = 0;
 
 motion_set(image_angle, vel);
 
