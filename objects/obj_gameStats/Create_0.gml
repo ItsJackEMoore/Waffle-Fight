@@ -22,5 +22,5 @@ player2Points = 0;
 
 countdown = 3;
 framerate = room_speed;
-fullRound = 120;
+fullRound = 20;
 alarm[0] = framerate;
