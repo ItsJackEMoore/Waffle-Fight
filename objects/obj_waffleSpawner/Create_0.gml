@@ -7,6 +7,6 @@ currWaffles = 0;
 maxWaffles = 10;
 currBWaffles = 0;
 maxBWaffles = 4;
-spawnrate = 60;
+spawnrate = 90;
 alarm[0] = spawnrate;
 
