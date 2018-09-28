@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0e55f052-2fbd-437f-afdb-459be637834a",
+            "Value": {
+                "id": "76d423ee-1c56-4ee2-bc52-cd3831377195",
+                "resourcePath": "objects\\obj_tail2\\obj_tail2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0f23072a-178b-473c-805b-ee981f856027",
             "Value": {
                 "id": "b0220d21-4980-4a42-8867-46d474c850ec",
@@ -99,6 +107,22 @@
             "Value": {
                 "id": "1d0921d1-1588-48de-9644-d15fa4d4439b",
                 "resourcePath": "objects\\obj_asteroid\\obj_asteroid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4ad30ab3-ba91-4c87-88ad-f0684e1a56ae",
+            "Value": {
+                "id": "5266aaed-15c4-4972-86ed-c42691ebd3c0",
+                "resourcePath": "objects\\obj_tail\\obj_tail.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5868a976-d6f8-4593-82eb-59c11831b7c3",
+            "Value": {
+                "id": "74810ff5-3a8f-4686-9e32-40055bc77ba9",
+                "resourcePath": "objects\\obj_horn\\obj_horn.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -228,6 +252,14 @@
                 "id": "5f5ef92d-912d-452c-a7e9-f9416193aff5",
                 "resourcePath": "sprites\\spr_narwhal_tail_3\\spr_narwhal_tail_3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "90d5e865-485f-4258-b595-6e23ab57773f",
+            "Value": {
+                "id": "914691c4-0123-4111-aaff-578150014634",
+                "resourcePath": "objects\\obj_tail3\\obj_tail3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -443,6 +475,14 @@
             "Value": {
                 "id": "56e526f1-06d4-4843-99ac-ef9e8c9b6154",
                 "resourcePath": "objects\\obj_video\\obj_video.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fb471ebe-524a-4f14-bada-71114a3a86e5",
+            "Value": {
+                "id": "380280d8-4dc5-4533-9ead-d5c45400a022",
+                "resourcePath": "objects\\obj_body1\\obj_body1.yy",
                 "resourceType": "GMObject"
             }
         }
