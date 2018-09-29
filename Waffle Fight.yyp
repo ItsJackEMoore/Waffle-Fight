@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "3874d68e-cbe6-497d-bd56-adf250c5d852",
+            "Value": {
+                "id": "98635b61-cdfc-4466-8158-ed24622ed5e3",
+                "resourcePath": "sprites\\spr_narwhal_p2\\spr_narwhal_p2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3d1126bf-ec5e-4b63-85e3-ee848cb50f41",
             "Value": {
                 "id": "bed1a5d3-0b02-4f88-9bb7-cd5de174006c",
@@ -284,6 +292,14 @@
                 "id": "c949ec3a-1673-4848-aafa-24f6877af6d3",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa1be639-4d5e-498a-a3ea-0c2bb5b64c98",
+            "Value": {
+                "id": "6506f57e-960a-4dcf-a1ed-9ab70f19bbcc",
+                "resourcePath": "sprites\\spr_narwhal_p1\\spr_narwhal_p1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
