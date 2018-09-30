@@ -26,3 +26,5 @@ p1_dec = ord("S");
 globalvar p1hx, p1hy, p1hp; p1hx = 0; p1hy = 0; p1hp = 5;
 inv = 0;
 invtime = 120;
+
+canmove = true;
