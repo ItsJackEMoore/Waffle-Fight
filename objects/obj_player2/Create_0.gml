@@ -4,10 +4,10 @@ image_speed =0;
 image_xscale = 0.1;
 image_yscale = 0.1;
 
-maxvel = -10;
+maxvel = 10;
 vel = 0;
-accell = -1;
-minvel = -3;
+accell = 1;
+minvel = 3;
 rotspd = 4;
 xloop = true;
 yloop = true;
