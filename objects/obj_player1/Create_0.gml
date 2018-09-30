@@ -1,4 +1,4 @@
-/// @description Narwhal Create
+image_angle = 180;
 image_index = 0;
 image_speed =0;
 image_xscale = 0.1;
@@ -23,3 +23,6 @@ p1_rightR = ord("D");
 p1_acc = ord("W");
 p1_dec = ord("S");
 
+globalvar p1hx, p1hy, p1hp; p1hx = 0; p1hy = 0; p1hp = 5;
+inv = 0;
+invtime = 120;

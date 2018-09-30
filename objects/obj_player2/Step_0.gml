@@ -1,5 +1,3 @@
-/// @description Narwhal movement
-
 if (keyboard_check(p2_leftR)) image_angle = image_angle + rotspd;
 if (keyboard_check(p2_rightR)) image_angle = image_angle - rotspd;
 if (keyboard_check(p2_acc)) vel = min(vel + accell, maxvel);
@@ -8,6 +6,9 @@ if ((keyboard_check(p2_dec)) && (vel < minvel)) vel = vel * brakscl;
 if ((keyboard_check(p2_dec)) && (vel >= minvel)) vel = 0;
 
 motion_set(image_angle, -vel);
+
+p2hx = lengthdir_x((721 * image_xscale), (image_angle + 139)) + x;
+p2hy = lengthdir_y((721 * image_yscale), (image_angle + 139)) + y;
 
 if xloop
 {
@@ -30,3 +31,20 @@ if !yloop
 	if (y > room_width) y = room_width;
 }
 
+if (inv <= 0)
+{
+	if point_in_rectangle(p1hx, p1hy, x - (200 * image_xscale), y - (200 * image_yscale), x + (200 * image_xscale), y + (200 * image_yscale))
+	{
+		p2hp--;
+		inv = invtime;
+	}
+}
+inv--;
+
+if (p2hp <= 0)
+{
+	player1Points += 3;
+	player2Points -= 3;
+	instance_create_layer(1820,540,"Game",obj_player2);
+	instance_destroy(self);
+}
