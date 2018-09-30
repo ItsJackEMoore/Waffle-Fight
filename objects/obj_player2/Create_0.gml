@@ -26,3 +26,5 @@ p2_dec = vk_down;
 globalvar p2hx, p2hy, p2hp; p2hx = 0; p2hy = 0; p2hp = 5;
 inv = 0;
 invtime = 120;
+
+canmove = true;
