@@ -1,12 +1,12 @@
 image_index = 1;
-image_speed =0;
+image_speed = 0;
 image_xscale = 0.1;
 image_yscale = 0.1;
 
 maxvel = 10;
-vel = 0;
-accell = 1;
-minvel = 3;
+globalvar p2vel; p2vel = 0;
+accell = .5;
+minvel = 1.5;
 rotspd = 4;
 xloop = true;
 yloop = true;
@@ -23,8 +23,9 @@ p2_rightR = vk_right;
 p2_acc = vk_up;
 p2_dec = vk_down;
 
-globalvar p2hx, p2hy, p2hp; p2hx = 0; p2hy = 0; p2hp = 5;
+globalvar p2hx, p2hy, p2hp; p2hx = 0; p2hy = 0; p2hp = 3;
+hb1x = 0; hb1y = 0; hb2x = 0; hb2y = 0;
 inv = 0;
-invtime = 120;
+invtime = 60;
 
 canmove = true;
