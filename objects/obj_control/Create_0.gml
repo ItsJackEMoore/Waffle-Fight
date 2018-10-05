@@ -10,7 +10,9 @@ control_x_target = gui_margin * 1.5;
 control_speed = 25; //lower is faster
 control_font = f_Menu;
 control_itemheight = font_get_size(f_Menu);
+globalvar control_committed; 
 control_committed = -1;
+globalvar control_control;
 control_control = true;
 
 control[8] = "Player 1 Right Rotate";

@@ -42,21 +42,20 @@ if(control_x < -300) && (control_committed != -1)
 {
 	switch (control_committed)
 	{
-		case 1: default: game_end(); break;
 		case 0: instance_create_layer(0,0,"Instances",obj_options); instance_destroy(self) break; //Option controls break; //Should go back to r_Menu
 	}
 }
-else if(control_committed != -1)
+else if(control_committed != -1 && control_cursor > 0)
 {
 	switch(control_committed)
 	{
-		case 8: default: break; //Player 1 Right Rotate
-		case 7: break; //Player 1 Left Rotate
-		case 6: break; //Player 1 Accelerate
-		case 5: break //Player 1 Decelerate 
-		case 4: break; //Player 2 Right Rotate
-		case 3: break; //Player 2 Left Rotate
-		case 2: break;//Player 2 Accelerate
-		case 1: break; //PLayer 2 Decelerate
+		case 8: default: instance_create_layer(0,0,"Instances",obj_keySwitch); control_to_change = control_cursor;  break; //Player 1 Right Rotate
+		case 7: control_to_change = control_cursor; instance_create_layer(0,0,"Instances",obj_keySwitch); break; //Player 1 Left Rotate
+		case 6: control_to_change = control_cursor; instance_create_layer(0,0,"Instances",obj_keySwitch); break; //Player 1 Accelerate
+		case 5: control_to_change = control_cursor; instance_create_layer(0,0,"Instances",obj_keySwitch); break //Player 1 Decelerate 
+		case 4: control_to_change = control_cursor; instance_create_layer(0,0,"Instances",obj_keySwitch); break; //Player 2 Right Rotate
+		case 3: control_to_change = control_cursor; instance_create_layer(0,0,"Instances",obj_keySwitch); break; //Player 2 Left Rotate
+		case 2: control_to_change = control_cursor; instance_create_layer(0,0,"Instances",obj_keySwitch); break;//Player 2 Accelerate
+		case 1: control_to_change = control_cursor; instance_create_layer(0,0,"Instances",obj_keySwitch); break; //PLayer 2 Decelerate
 	}
 }
