@@ -1,3 +1,18 @@
+if(p2_leftR = 1){
+	p2_leftR = vk_left;
+	
+}
+if(p2_rightR = 1){
+	p2_rightR = vk_right;
+	
+}
+if(p2_acc = 1){
+	p2_acc = vk_up;
+}
+if(p2_dec = 1){
+	p2_dec = vk_down;
+
+}
 if (canmove) {
 	if (keyboard_check(p2_leftR)) image_angle = image_angle + rotspd;
 	if (keyboard_check(p2_rightR)) image_angle = image_angle - rotspd;

@@ -1,8 +1,8 @@
 /// @description control Page Format
-
 draw_set_font(control_font);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+draw_text(gui_width - gui_margin,gui_margin,p1_rightR);
 for(var i = 0; i < control_items; i++)
 {
 	var offset = 2;

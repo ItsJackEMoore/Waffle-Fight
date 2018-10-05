@@ -1,3 +1,20 @@
+if(p1_leftR = 1){
+	p1_leftR = ord("A");
+
+}
+if(p1_rightR = 1){
+	p1_rightR = ord("D");
+
+}
+if(p1_acc = 1){
+	p1_acc = ord("W");
+	
+
+}
+if(p1_dec = 1){
+	p1_dec = ord("S");
+}
+
 if (canmove) {
 	if (keyboard_check(p1_leftR)) image_angle = image_angle + rotspd;
 	if (keyboard_check(p1_rightR)) image_angle = image_angle - rotspd;

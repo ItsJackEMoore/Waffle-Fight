@@ -13,16 +13,6 @@ yloop = true;
 dragscl = .98;
 brakscl = .95;
 
-globalvar p1_leftR;
-globalvar p1_rightR;
-globalvar p1_acc;
-globalvar p1_dec;
-
-p1_leftR = ord("A");
-p1_rightR = ord("D");
-p1_acc = ord("W");
-p1_dec = ord("S");
-
 globalvar p1hx, p1hy, p1hp; p1hx = 0; p1hy = 0; p1hp = 5;
 inv = 0;
 invtime = 120;
