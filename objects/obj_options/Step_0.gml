@@ -34,9 +34,7 @@ if(option_x < -200) && (option_committed != -1)
 {
 	switch (option_committed)
 	{
-		case 3: instance_create_layer(0,0,"Instances",obj_control); instance_destroy(self); break;
-		case 2: instance_create_layer(0,0,"Instances",obj_video); instance_destroy(self); break;
-		case 1: instance_create_layer(0,0,"Instances",obj_audio); instance_destroy(self); break;
+		case 1: instance_create_layer(0,0,"Instances",obj_control); instance_destroy(self); break;
 		case 0: scr_Transition(TRANS_MODE.GOTO,r_menu); break;
 	}
 }
