@@ -1,0 +1,2 @@
+musicPlaying = true;
+currRoom = room  ;
