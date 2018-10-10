@@ -79,11 +79,27 @@
             }
         },
         {
+            "Key": "2da590e6-edc4-4c7b-a70f-f64373d69439",
+            "Value": {
+                "id": "ffd6678a-545b-4d1e-8bc6-0c12d2d50378",
+                "resourcePath": "sounds\\snd_options\\snd_options.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2fbcd9a9-8be5-4982-92cc-3f61b8ae7049",
             "Value": {
                 "id": "8617f5cc-ebbc-4311-8212-6c5a1694f568",
                 "resourcePath": "objects\\obj_gameOptions\\obj_gameOptions.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3715d0b3-384d-48b3-85fb-bed71262f212",
+            "Value": {
+                "id": "84c32ee5-34f5-4f65-9543-ab7ee26a0609",
+                "resourcePath": "sounds\\snd_space\\snd_space.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -1,2 +1,0 @@
-musicPlaying = true;
-currRoom = room  ;

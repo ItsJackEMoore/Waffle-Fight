@@ -34,7 +34,7 @@ if(game_x < -100) && (game_committed != -1)
 {
 	switch (game_committed)
 	{
-		case 2: room_restart(); break;
+		case 2: audio_stop_all(); room_restart(); break;
 		case 1: game_restart(); break;
 		case 0: game_end(); break;
 	}

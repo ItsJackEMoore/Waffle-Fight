@@ -17,3 +17,9 @@ p2_leftR = 1;
 p2_rightR = 1;
 p2_acc = 1;
 p2_dec = 1;
+
+globalvar musicPlaying;
+musicPlaying = 1;
+
+globalvar music_already_playing; 
+music_already_playing = false;
