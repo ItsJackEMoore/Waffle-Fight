@@ -4,3 +4,4 @@ image_xscale = .15;
 image_yscale = .15;
 angle = random_range(0,180);
 
+alarm[0] = 60;
