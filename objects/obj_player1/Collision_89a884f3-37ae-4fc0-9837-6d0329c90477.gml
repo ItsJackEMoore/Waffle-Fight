@@ -1,3 +1,3 @@
 canmove = false;
-vel = -1;
-alarm[0] = 60;
+vel = vel * -0.5;
+alarm[0] = 30;

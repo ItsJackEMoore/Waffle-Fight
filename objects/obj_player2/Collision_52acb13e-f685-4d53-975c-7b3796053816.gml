@@ -1,3 +1,3 @@
 canmove = false;
-vel = -1;
-alarm[1] = 60;
+vel = -0.5;
+alarm[1] = 30;
