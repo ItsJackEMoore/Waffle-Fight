@@ -16,16 +16,20 @@ if(p2_dec = 1){
 if (canmove) {
 	if (keyboard_check(p2_leftR)) image_angle = image_angle + rotspd;
 	if (keyboard_check(p2_rightR)) image_angle = image_angle - rotspd;
-	if (keyboard_check(p2_acc)) vel = min(vel + accell, maxvel);
-	if (!(keyboard_check(p2_acc)) && (vel < minvel)) vel = vel * dragscl;
-	if ((keyboard_check(p2_dec)) && (vel < minvel)) vel = vel * brakscl;
-	if ((keyboard_check(p2_dec)) && (vel >= minvel)) vel = 0;
+	if (keyboard_check(p2_acc)) p2vel = min(p2vel + accell, maxvel);
+	if (!(keyboard_check(p2_acc)) && (abs(p2vel) > minvel)) p2vel = p2vel * dragscl;
+	if ((keyboard_check(p2_dec)) && (abs(p2vel) > minvel)) p2vel = p2vel * brakscl;
+	if ((keyboard_check(p2_dec)) && (abs(p2vel) <= minvel)) p2vel = 0;
 }
 
-motion_set(image_angle, -vel);
+motion_set(image_angle, -p2vel);
 
 p2hx = lengthdir_x((721 * image_xscale), (image_angle + 139)) + x;
 p2hy = lengthdir_y((721 * image_yscale), (image_angle + 139)) + y;
+hb1x = lengthdir_x((200 * image_xscale), image_angle + 15) + x;
+hb1y = lengthdir_y((200 * image_yscale), image_angle + 15) + y;
+hb2x = lengthdir_x((400 * image_xscale), image_angle + 30) + x;
+hb2y = lengthdir_y((400 * image_yscale), image_angle + 30) + y;
 
 if xloop
 {
@@ -50,10 +54,12 @@ if !yloop
 
 if (inv <= 0)
 {
-	if point_in_rectangle(p1hx, p1hy, x - (200 * image_xscale), y - (200 * image_yscale), x + (200 * image_xscale), y + (200 * image_yscale))
+	if (point_in_rectangle(p1hx, p1hy, x - (200 * image_xscale), y - (200 * image_yscale), x + (200 * image_xscale), y + (200 * image_yscale)) or point_in_rectangle(p1hx, p1hy, hb1x - (200 * image_xscale), hb1y - (200 * image_yscale), hb1x + (200 * image_xscale), hb1y + (200 * image_yscale)) or point_in_rectangle(p1hx, p1hy, hb2x - (200 * image_xscale), hb2y - (200 * image_yscale), hb2x + (200 * image_xscale), hb2y + (200 * image_yscale)))
 	{
 		p2hp--;
 		inv = invtime;
+		p2vel = 0;
+		p1vel = min(-p1vel, -5);
 	}
 }
 inv--;
